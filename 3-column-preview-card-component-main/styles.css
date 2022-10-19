@@ -6,12 +6,22 @@
 
 .container{
     display: flex;
+
 }    
+.sedan-back{
+    background-color: var(--color-orange);
+}
 .sedans{
     background-color: var(--color-orange);
 }
 .suvs{
     background-color: var(--color-cyan);
+}
+.suv-back{
+    background-color: var(--color-cyan);
+}
+.luxury-back{
+    background-color: var(--color-dark-cyan);
 }
 .luxury{
     background-color: var(--color-dark-cyan);
@@ -21,6 +31,55 @@ h1{
     color: white;
 }
 p{
-    color: white;
+    color: hsla(0, 0%, 100%, 0.75);
     font-size: 15px;
+    font-family: 'Lexend Deca';
+}
+.sedan-btn{
+    background-color: white;
+    color: var(--color-orange);
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Lexend Deca';
+}
+.suv-btn{
+    background-color: white;
+    color: var(--color-cyan);
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Lexend Deca';
+}
+.luxury-btn{
+    background-color: white;
+    color: var(--color-dark-cyan);
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Lexend Deca';
+}
+.sedan-btn:hover{
+    background-color: var(--color-orange);
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+}
+.suv-btn:hover{
+    background-color: var(--color-cyan);
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+}
+.luxury-btn:hover{
+    background-color: var(--color-dark-cyan);
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+}
+.margin{
+    margin: 1.2em;
 }
