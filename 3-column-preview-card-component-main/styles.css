@@ -1,0 +1,26 @@
+*{
+    --color-orange: hsl(31, 77%, 52%);
+    --color-cyan: hsl(184, 100%, 22%);
+    --color-dark-cyan: hsl(179, 100%, 13%);
+}
+
+.container{
+    display: flex;
+}    
+.sedans{
+    background-color: var(--color-orange);
+}
+.suvs{
+    background-color: var(--color-cyan);
+}
+.luxury{
+    background-color: var(--color-dark-cyan);
+}
+h1{
+    font-family: 'Big Shoulders Display';
+    color: white;
+}
+p{
+    color: white;
+    font-size: 15px;
+}
